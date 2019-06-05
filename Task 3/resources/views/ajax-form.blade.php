@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>Laravel 5.7 Ajax Form Submission Example - Tutsmake.com</title>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>  
@@ -43,7 +43,7 @@
         <span class="text-danger">{{ $errors->first('email') }}</span>
       </div>      
       <div class="form-group">
-        <label for="mobile_number">Mobile Number</label>
+        <label for="mobile_number">Pin Code Number</label>
         <input type="text" name="mobile_number" class="form-control" id="mobile_number" placeholder="Please enter Pin Code number" maxlength="10">
         <span class="text-danger">{{ $errors->first('mobile_number') }}</span>
       </div>
